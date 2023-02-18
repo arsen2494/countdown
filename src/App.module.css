@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100vh;
+    flex-direction: column;
+    margin: auto;
+    padding: 48px;
+}
+
+.buttonsContainer {
+    display: flex;
+    margin-top: 16px;
+    width: 100%;
+    gap: 16px;
+}
+
+.buttonsContainer :first-child {
+    flex: 2;
+}
+
+.buttonsContainer :last-child {
+    flex: 1;
+}

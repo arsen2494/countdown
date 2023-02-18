@@ -1,0 +1,7 @@
+.timePicker {
+    width: 100%;
+}
+
+.timePicker :global(input) {
+    text-align: center;
+}
